@@ -40,6 +40,8 @@ latexmk -pdf main.tex
 
 ## Marks obtained
 
+*Grade*: 100/100
+
 | Question | Score   | Comments   |
 | -------- | ------- | ---------- |
 | Q1.1     | 2 / 2   |            |
