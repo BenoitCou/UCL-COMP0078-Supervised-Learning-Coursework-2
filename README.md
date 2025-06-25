@@ -30,6 +30,9 @@ pip install -r requirements.txt
 # Launch the notebook
 jupyter notebook code_supervised_learning_coursework_2.ipynb
 ```
+
+Necessary files for the project are available here: http://www0.cs.ucl.ac.uk/staff/M.Herbster/SL/misc/
+
 ## Compiling the report
 ```bash
 latexmk -pdf main.tex
