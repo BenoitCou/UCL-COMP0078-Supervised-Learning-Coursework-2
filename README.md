@@ -38,6 +38,40 @@ Necessary files for the coursework are available here: http://www0.cs.ucl.ac.uk/
 latexmk -pdf main.tex
 ```
 
+## Coursework Overview
+
+**Part I – Rademacher complexity (20 % of mark)** 
+
+- **Sub-Gaussian max bound** — proved  
+  \( \displaystyle \mathbb{E}[\max_{1\le i\le m} X_i] \;\le\; \tfrac{b-a}{2}\sqrt{2\log m} \)  
+  via Hoeffding’s lemma.  
+- **Finite-class Rademacher complexity** — chained five lemmas to derive  
+  \( \displaystyle \widehat{\mathfrak{R}}_S(H)=O\!\bigl(\sqrt{\tfrac{\log|H|}{n}}\bigr) \)  
+  for any finite hypothesis class \(H\).
+
+**Part II – Bayes rule & surrogate losses (40 %)**  
+
+- **Population minimisers** — closed-form \(f^{\*}\) for squared, exponential, logistic and hinge losses.  
+- **Bayes decision rule** — recovered \(c^{\*}(x)=\text{sign}\bigl(2\eta(x)-1\bigr)\) with  
+  \( \eta(x)=\mathbb{P}(y=1\mid x) \).  
+- **Fisher-consistency proofs** — explicit decoding maps \(d(f)\) for each loss.  
+- **Comparison inequality** — established  
+  \(R(\text{sign}f)-R(\text{sign}f^{\*})\le\sqrt{E(f)-E(f^{\*})}\)  
+  through Questions 2.5.1 – 2.5.3.  
+
+**Part III – Kernel perceptron on handwritten digits (40 %)**  
+
+- **Multi-class kernel perceptron** — implemented *one-vs-rest* (OvR) baseline; optional *one-vs-one* (OvO).  
+- **Polynomial kernel study**  
+  - 20 random 80 / 20 train-test splits, degrees \(d=1\!:\!7\).  
+  - Mean ± s.d. train/test errors logged (Q3).  
+  - 5-fold CV to select \(d^{\*}\); histogram of chosen degrees (Q4).  
+- **Gaussian kernel study** — repeated the same protocol over a log-grid of widths \(c\) (Q7).  
+- **Error analysis**  
+  - 10 × 10 confusion matrix averaged over 20 runs (Q5).  
+  - Visualisation of the five hardest digits with commentary on failure modes (Q6).  
+- **OvO vs OvR comparison** — contrasted accuracy and training time (Q8).  
+
 ## Marks obtained
 
 *Grade*: 100/100
