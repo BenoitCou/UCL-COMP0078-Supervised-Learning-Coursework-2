@@ -7,10 +7,11 @@ It includes:
 | Path | Description |
 |------|-------------|
 | `main.tex`          | LaTeX source of the written report (compiled PDF shows all answers, figures and tables). |
+| `Coursework_2_report.pdf` | PDF version of the written report. |
 | `images/`           | Auxiliary figures referenced by `main.tex`. |
 | `code_supervised_learning_coursework_2.ipynb` | Jupyter notebook implementing every experiment required in the coursework. |
 | `dataset.csv`       | Dataset used in all parts of the coursework. |
-| `Coursework2_Task.pdf` | The questions of the coursework  |
+| `Coursework2_Task.pdf` | Questions of the coursework  |
 
 ---
 
