@@ -22,13 +22,10 @@ It includes:
 git clone https://github.com/BenoitCou/UCL-COMP0078-Supervised-Learning-Coursework-2
 cd UCL-COMP0078-Supervised-Learning-Coursework-2
 
-# 2. Create & activate a virtual environment  (optional but recommended)
-python -m venv .venv
-
-# Install Python dependencies
+# 2. Install Python dependencies
 pip install -r requirements.txt
 
-# Launch the notebook
+# 3. Launch the notebook
 jupyter notebook code_supervised_learning_coursework_2.ipynb
 ```
 
