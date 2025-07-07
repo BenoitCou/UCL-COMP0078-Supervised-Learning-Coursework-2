@@ -54,7 +54,7 @@ latexmk -pdf main.tex
   $$\eta(x)=\mathbb{P}(y=1\mid x)$$.  
 - **Fisher-consistency proofs** — explicit decoding maps $$d(f)$$ for each loss.  
 - **Comparison inequality** — established  
-  $$R(\text{sign}f)-R(\text{sign}f^{\*})\le\sqrt{(E(f)-E(f^{\*})^2)}$$  
+  $$R(\text{sign}f)-R(\text{sign}f^{\*})\le\sqrt{(E(f)-E(f^{\*})^2}$$  
   through Questions 2.5.1 – 2.5.3.  
 
 **Part III – Kernel perceptron on handwritten digits (40 %)**  
