@@ -41,17 +41,17 @@ latexmk -pdf main.tex
 **Part I – Rademacher complexity (20 % of mark)** 
 
 - **Sub-Gaussian max bound** — proved  
-  $$ \displaystyle \mathbb{E}[\max_{1\le i\le m} X_i] \;\le\; \tfrac{b-a}{2}\sqrt{2\log m} $$  
+  $$\displaystyle \mathbb{E}[\max_{1\le i\le m} X_i] \;\le\; \tfrac{b-a}{2}\sqrt{2\log m}$$  
   via Hoeffding’s lemma.  
 - **Finite-class Rademacher complexity** — chained five lemmas to derive  
-  $$ \displaystyle \widehat{\mathfrak{R}}_S(H)=O\!\bigl(\sqrt{\tfrac{\log|H|}{n}}\bigr) $$  
+  $$\displaystyle \widehat{\mathfrak{R}}_S(H)=O\!\bigl(\sqrt{\tfrac{\log|H|}{n}}\bigr)$$  
   for any finite hypothesis class $$H$$.
 
 **Part II – Bayes rule & surrogate losses (40 %)**  
 
 - **Population minimisers** — closed-form $$f^{\*}$$ for squared, exponential, logistic and hinge losses.  
 - **Bayes decision rule** — recovered $$c^{\*}(x)=\text{sign}\bigl(2\eta(x)-1\bigr)$$ with  
-  $$ \eta(x)=\mathbb{P}(y=1\mid x) $$.  
+  $$\eta(x)=\mathbb{P}(y=1\mid x)$$.  
 - **Fisher-consistency proofs** — explicit decoding maps $$d(f)$$ for each loss.  
 - **Comparison inequality** — established  
   $$R(\text{sign}f)-R(\text{sign}f^{\*})\le\sqrt{E(f)-E(f^{\*})}$$  
